@@ -13,7 +13,7 @@ This app only responds to this types of paths:
 - Install [QEMU](https://minikube.sigs.k8s.io/docs/drivers/kvm2/) to use kvm2 as driver for Minikube
 - Install [Minikube](https://kubernetes.io/ru/docs/tasks/tools/install-minikube/)
 - Start minikube with cni installed to be able to use Network Policies: `minikube start --vm-driver=kvm2 --network-plugin=cni --cni=calico`
-- Clone the repo `link`
+- Clone the [repo](https://github.com/the-middle/simple-python-webserver.git)
 - Deploy PostgreSQL to minikube: `helm upgrade --install postgresql ./postgresql/`
 
 > Remember! You can change username and password and all other things in the values.yaml file.
